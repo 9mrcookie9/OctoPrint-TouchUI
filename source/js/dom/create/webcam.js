@@ -10,7 +10,7 @@ TouchUI.prototype.DOM.create.webcam = {
 		cloneTo: "#tabs + .tab-content",
 
 		webcam: {
-			$container: $("#webcam_container"),
+			$container: $("#webcam_plugins_container"),
 			cloneTo: "#webcam"
 		}
 	},
@@ -25,7 +25,7 @@ TouchUI.prototype.DOM.create.webcam = {
 		$('<!-- ko allowBindings: false -->').insertBefore(this.container.$elm);
 		$('<!-- /ko -->').insertAfter(this.container.$elm);
 
-		$("#webcam_container").attr("data-bind", $("#webcam_container").attr("data-bind").replace("keydown: onKeyDown, ", ""));
+		$("#webcam_plugins_container").attr("data-bind", $("#webcam_plugins_container").attr("data-bind").replace("keydown: onKeyDown, ", ""));
 		$("#webcam_image").on("mousedown", function(e) {
 			e.preventDefault();
 		});

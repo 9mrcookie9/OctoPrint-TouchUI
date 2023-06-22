@@ -8,7 +8,7 @@ TouchUI.prototype.DOM.init = function() {
 	this.DOM.create.dropdown.init.call( this.DOM.create.dropdown );
 
 	// Add a webcam tab if it's defined
-	if ($("#webcam_container").length > 0) {
+	if ($("#webcam_plugins_container").length > 0) {
 		this.DOM.create.webcam.init(this.DOM.create.tabbar);
 	}
 
