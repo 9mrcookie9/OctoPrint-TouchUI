@@ -989,7 +989,7 @@ TouchUI.prototype.DOM.init = function() {
 	this.DOM.create.dropdown.init.call( this.DOM.create.dropdown );
 
 	// Add a webcam tab if it's defined
-	if ($("#webcam_container").length > 0) {
+	if ($("#webcam_plugins_container").length > 0) {
 		this.DOM.create.webcam.init(this.DOM.create.tabbar);
 	}
 
@@ -2029,7 +2029,7 @@ TouchUI.prototype.DOM.create.webcam = {
 		cloneTo: "#tabs + .tab-content",
 
 		webcam: {
-			$container: $("#webcam_container"),
+			$container: $("#webcam_plugins_container"),
 			cloneTo: "#webcam"
 		}
 	},
@@ -2044,7 +2044,7 @@ TouchUI.prototype.DOM.create.webcam = {
 		$('<!-- ko allowBindings: false -->').insertBefore(this.container.$elm);
 		$('<!-- /ko -->').insertAfter(this.container.$elm);
 
-		$("#webcam_container").attr("data-bind", $("#webcam_container").attr("data-bind").replace("keydown: onKeyDown, ", ""));
+		$("#webcam_plugins_container").attr("data-bind", $("#webcam_plugins_container").attr("data-bind").replace("keydown: onKeyDown, ", ""));
 		$("#webcam_image").on("mousedown", function(e) {
 			e.preventDefault();
 		});
