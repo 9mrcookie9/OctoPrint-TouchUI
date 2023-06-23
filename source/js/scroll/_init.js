@@ -5,14 +5,10 @@ TouchUI.prototype.scroll.init = function() {
 		var width = $(window).width();
 
 		// Covert VH to the initial height (prevent height from jumping when navigation bar hides/shows)
-		$( document ).ready(function() {
-			setTimeout(function() {
-				$("#temperature-graph").parent().height($("#temperature-graph").parent().outerHeight());
-				$("#terminal-scroll").height($("#terminal-scroll").outerHeight());
-				$("#terminal-sendpanel").css("top", $("#terminal-scroll").outerHeight()-1);
-			}, 0);
-		});
-		
+		// note the code bellow are in comment because, on IOS at load, sometime set the size to 0, and cause view trouble
+		// $("#temperature-graph").parent().height($("#temperature-graph").parent().outerHeight());
+		$("#terminal-scroll").height($("#terminal-scroll").outerHeight());
+		$("#terminal-sendpanel").css("top", $("#terminal-scroll").outerHeight()-1);
 
 		$(window).on("resize", function() {
 
