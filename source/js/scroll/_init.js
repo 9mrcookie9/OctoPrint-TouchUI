@@ -5,9 +5,14 @@ TouchUI.prototype.scroll.init = function() {
 		var width = $(window).width();
 
 		// Covert VH to the initial height (prevent height from jumping when navigation bar hides/shows)
-		$("#temperature-graph").parent().height($("#temperature-graph").parent().outerHeight());
-		$("#terminal-scroll").height($("#terminal-scroll").outerHeight());
-		$("#terminal-sendpanel").css("top", $("#terminal-scroll").outerHeight()-1);
+		$( document ).ready(function() {
+			setTimeout(function() {
+				$("#temperature-graph").parent().height($("#temperature-graph").parent().outerHeight());
+				$("#terminal-scroll").height($("#terminal-scroll").outerHeight());
+				$("#terminal-sendpanel").css("top", $("#terminal-scroll").outerHeight()-1);
+			}, 0);
+		});
+		
 
 		$(window).on("resize", function() {
 
