@@ -17,8 +17,8 @@ Sometimes bugs can be related to a specific plugin or OctoPrint version. Since T
 
 #### Before Submitting A Bug Report
 
-* **Check the [Troubleshooting on the Wiki](https://github.com/BillyBlaze/OctoPrint-TouchUI/wiki/Setup:-Troubleshooting)** for a list of common questions and problems.
-* **Perform a [cursory search](https://github.com/BillyBlaze/OctoPrint-TouchUI/issues?utf8=%E2%9C%93&q=)** to see if the problem has already been reported. If it has, add a comment to the existing issue instead of opening a new one.
+* **Check the [Troubleshooting on the Wiki](https://github.com/9mrcookie9/OctoPrint-TouchUI/wiki/Setup:-Troubleshooting)** for a list of common questions and problems.
+* **Perform a [cursory search](https://github.com/9mrcookie9/OctoPrint-TouchUI/issues?utf8=%E2%9C%93&q=)** to see if the problem has already been reported. If it has, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A (Good) Bug Report?
 
@@ -42,7 +42,7 @@ Explain the problem and include additional details to help maintainers reproduce
 * **Include screenshots and animated GIFs**. You can use [this tool](http://www.cockos.com/licecap/) to record GIFs on OSX and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
 
 ##### **When reporting OS/Touchscreen issues:**
-* **What's the name and version of the OS you're using**?  
+* **What's the name and version of the OS you're using**?
   Include details about your configuration and environment:
 
 
@@ -88,7 +88,7 @@ Unsure where to begin contributing to TouchUI? You can start by looking through 
 * ~~Follow the [JavaScript](https://github.com/styleguide/javascript),
   and [LESS](https://github.com/styleguide/css) styleguides.~~ [work-in-progress]
 * End files with a newline.
-* Target the branch maintenance 
+* Target the branch maintenance
 
 ## Styleguides
 

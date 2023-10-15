@@ -97,7 +97,7 @@ class touchui_core(	touchui_api,
 				user="BillyBlaze",
 				repo="OctoPrint-TouchUI",
 				current=self._plugin_version,
-				pip="https://github.com/BillyBlaze/OctoPrint-TouchUI/archive/{target_version}.zip"
+				pip="https://github.com/9mrcookie9/OctoPrint-TouchUI/archive/{target_version}.zip"
 			)
 		)
 

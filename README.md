@@ -9,21 +9,24 @@ All these settings are set client-side, so we won't interfere with other clients
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/BillyBlaze/OctoPrint-TouchUI/archive/master.zip
+    https://github.com/9mrcookie9/OctoPrint-TouchUI/archive/master.zip
 
-- **Touchscreens**  
-Read more about [setting up a touchscreen](https://github.com/BillyBlaze/OctoPrint-TouchUI/wiki/Setup#raspberrypi--touchscreen) on our Wiki.
+- **Touchscreens**
+Read more about [setting up a touchscreen](https://github.com/9mrcookie9/OctoPrint-TouchUI/wiki/Setup#raspberrypi--touchscreen) on our Wiki.
 
 ## Configuration
 The interface will automatically start when your browser is smaller then 980 pixels in width or if you're browsing with a touch device. You can turn this manually on and off in the ``TouchUI settings`` modal. Alternatively you can force TouchUI to load by adding ``#touch`` on the end of your URL.
 
-Read more [configuration options](https://github.com/BillyBlaze/OctoPrint-TouchUI/wiki/Configuration) on our Wiki.
+Read more [configuration options](https://github.com/9mrcookie9/OctoPrint-TouchUI/wiki/Configuration) on our Wiki.
 
-- **Customization**  
-You can change 4 main colors of the interface with the power of LESS. If you would like to change more colors, then you're free to add your own LESS file. [Read more about this and the variables](https://github.com/BillyBlaze/OctoPrint-TouchUI/wiki/Customize:-Use-your-own-file) on our wiki.
+- **Customization**
+You can change 4 main colors of the interface with the power of LESS. If you would like to change more colors, then you're free to add your own LESS file. [Read more about this and the variables](https://github.com/9mrcookie9/OctoPrint-TouchUI/wiki/Customize:-Use-your-own-file) on our wiki.
 
 ## Supported browsers
 1. Chrome 30+
 1. Firefox 40+
 1. Safari Mobile
 1. Chrome Mobile
+
+## Original repo:
+The former creator can be [found here](https://github.com/BillyBlaze/OctoPrint-TouchUI), due to the lack of activity I decided to take up plugin support.
